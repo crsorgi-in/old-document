@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Important Document</title>
+  <link rel="stylesheet" href="./dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="./dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+  <script src="./dist/js/bootstrap.js"></script>
+  <script src="./dist/js/bootstrap.bundle.js"></script>
+  <script src="./dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./dist/js/bootstrap.min.js"></script>
+  <script src="./dist/js/bootstrap.js.map"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
+    integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
+    crossorigin="anonymous"></script>
+  <SCript type="text/javascript">
+    function printDiv(divName) {
+      var printContents = document.getElementById(divName).innerHTML;
+      var originalContents = document.body.innerHTML;
+
+      document.body.innerHTML = printContents;
+
+      window.print();
+
+      document.body.innerHTML = originalContents;
+    }
+
+  </SCript>
+</head>
+
+<body>
+  <!-- <div id="printableArea"> -->
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Link</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  </div>
+
+  <div class="container mt-3">
+    <h2>All Document</h2>
+    <!--e-Aadhaar start -->
+    <div class="card">
+      <div class="card-header">
+        <button class="collapsed btn" data-bs-toggle="collapse" href="#collapse_4">
+          E-Aadhaar
+        </button>
+      </div>
+      <div id="collapse_4" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aadhaar_mdl">Click here to
+            proceed</button>
+          <!-- School leaving certificate modal start -->
+          <div class="modal fade" id="aadhaar_mdl">
+            <div class="modal-dialog ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">E-Aadhaar</h4>
+                  <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-danger">This pdf File is Protected</p>
+                  <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                      class="text-warning">Combination of the first four letter of your name (As in Aadhaar Card) in
+                      CAPITAL
+                      letters and year of birth in YYYY format</span></p>
+                  <hr>
+                  <p>Example: Your name is SURAJ KUMAR and your Year of birth 2000 Then Your Password is:-<span
+                      class="text-success"> SURA2000</span></p>
+                  <hr>
+                  <h5>E-Aadhaar</h5>
+                  <div class="d-flex justify-content-between">
+                    <a href="/My Document/Sudhanshu Bhushan Aadhaar.pdf">Preview</a>
+                    <a href="/My Document/my aadhaar.pdf">
+                      <button type="button" class=" btn btn-primary">JPEG</button></a>
+                    <a href="/My Document/Sudhanshu Bhushan Aadhaar.pdf" download="Aadhaar Card">
+                      <button type="button" class=" btn btn-primary">Download</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- School leaving Certificate modal end  -->
+        </div>
+      </div>
+    </div>
+    <!--School leaving Certificate end -->
+
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header">
+          <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            B.Sc Admit Card
+          </button>
+        </div>
+        <!-- B.sc modal -->
+        <div class="modal fade" id="bsc_mdl">
+          <div class="modal-dialog ">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">B.Sc Admit Card</h4>
+                <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <p class="text-danger">This pdf File is Protected</p>
+                <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                    class="text-warning">Combination of the first four letter of your name (As in Marksheet) in CAPITAL
+                    letters and year of passing in YYYY format</span></p>
+                <hr>
+                <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                    class="text-success"> SURA2000</span></p>
+                <hr>
+                <h5>B.Sc Admit Card</h5>
+                <div class="d-flex justify-content-between">
+                  <a href="/My Document/B.Sc Admit Card.pdf">Preview</a>
+                  <a href="/My Document/B.Sc Admit Card.pdf" download="UG Admit Card">
+                    <button type="button" class=" btn btn-primary">Download</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- B.sc modal end -->
+
+        <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bsc_mdl">Click here to
+              proceed</button>
+          </div>
+        </div>
+      </div>
+      <!-- Bsc Reg  -->
+
+
+      <div class="card">
+        <div class="card-header">
+          <button class=" btn" data-bs-toggle="collapse" href="#collapseTwo">
+            B.Sc Registration
+          </button>
+        </div>
+        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bsc-reg_mdl">Click here to
+              proceed</button>
+            <!-- B.sc reg modal start -->
+            <div class="modal fade" id="bsc-reg_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">B.Sc Registration</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>B.Sc Registration</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/B.sc Registration.pdf">Preview</a>
+                      <a href="/My Document/B.sc Registration.pdf" download="UG Registration Card">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- B.sc reg modal end -->
+          </div>
+        </div>
+      </div>
+      <!-- Caste Certificate start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+            Caste Certificate
+          </button>
+        </div>
+        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cst_mdl">Click here to
+              proceed</button>
+            <!-- Caste certificate modal start -->
+            <div class="modal fade" id="cst_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Caste Certificate</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>Caste Certificate</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/BCCCO_2023_485851.pdf">Preview</a>
+                      <a href="/My Document/BCCCO_2023_485851.pdf" download="BCCCO_2023_485851">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Caste Certificate modal end -->
+          </div>
+        </div>
+      </div>
+      <!-- Caste Certificate end -->
+
+      <!-- D.El.Ed Admit card start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+            D.El.Ed Admit Card
+          </button>
+        </div>
+        <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#deled_mdl">Click here to
+              proceed</button>
+            <!--  D.El.Ed Admit Card modal start -->
+            <div class="modal fade" id="deled_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">D.El.Ed Admit Card</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>D.El.Ed Admit Card</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/D.el.ed Admit Card.pdf">Preview</a>
+                      <a href="/My Document/D.el.ed Admit Card.pdf" download="Deled Admit Card">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- D.El.Ed Admit Card end -->
+
+      <!-- D.El.Ed CAF Form start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseSeven">
+            D.El.Ed CAF Form
+          </button>
+        </div>
+        <div id="collapseSeven" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#deled-caf_mdl">Click here to
+              proceed</button>
+            <!-- D.el.ed CAF Form modal start -->
+            <div class="modal fade" id="deled-caf_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">D.El.Ed CAF Form</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>D.El.Ed CAF Form</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/D.El.Ed CAF Form.pdf">Preview</a>
+                      <a href="/My Document/D.El.Ed CAF Form.pdf" download="Deled CAF Form">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- D.el.ed CAF Form modal end -->
+          </div>
+        </div>
+      </div>
+      <!-- D.El.Ed Admit Card end -->
+
+
+      <!-- D.El.Ed dummy Admit card start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+            D.El.Ed Dummy Admit Card
+          </button>
+        </div>
+        <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#deled-dum_mdl">Click here to
+              proceed</button>
+            <!-- D.El.Ed dummy modal start -->
+            <div class="modal fade" id="deled-dum_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title"> D.El.Ed Dummy Admit Card</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5> D.El.Ed Dummy Admit Card</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/D.el.ed Dummy Admit Card.pdf">Preview</a>
+                      <a href="/My Document/D.el.ed Dummy Admit Card.pdf" download="Deled Dummy Admit Card">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- D.El.Ed dummy admit card modal end -->
+          </div>
+        </div>
+      </div>
+      <!-- D.El.Ed dummy Admit Card end -->
+
+      <!-- D.El.Ed Intimation letter start -->
+
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseSix">
+            D.El.Ed Intimation Letter
+          </button>
+        </div>
+        <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#deled-letter_mdl">Click here to
+              proceed</button>
+            <!-- D.El.Ed Intimation Letter modal start -->
+            <div class="modal fade" id="deled-letter_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">D.El.Ed Intimation Letter</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>D.El.Ed Intimation Letter</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/D.el.ed Intimation latter.pdf">Preview</a>
+                      <a href="/My Document/D.el.ed Intimation latter.pdf" download="Deled Intimation Letter">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- D.El.Ed Intimation Letter modal end -->
+          </div>
+        </div>
+      </div>
+      <!-- D.El.Ed Intimation letter end -->
+
+
+
+      <!-- D.El.Ed Score card start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseEight">
+            D.El.Ed Score Card
+          </button>
+        </div>
+        <div id="collapseEight" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#deled-scr_mdl">Click here to
+              proceed</button>
+            <!--  D.El.Ed Score card modal start -->
+            <div class="modal fade" id="deled-scr_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">D.El.Ed Score Card</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>D.El.Ed Score Card</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/D.el.ed Score card.pdf">Preview</a>
+                      <a href="/My Document/D.el.ed Score card.pdf" download="Deled Score Card">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  D.El.Ed Score card modal end -->
+          </div>
+        </div>
+      </div>
+      <!-- D.El.Ed Score Card end -->
+
+
+      <!-- Income Certificate start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapse_1">
+            Income Certificate
+          </button>
+        </div>
+        <div id="collapse_1" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#income-cer_mdl">Click here to
+              proceed</button>
+            <!--  D.El.Ed Score card modal start -->
+            <div class="modal fade" id="income-cer_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Income Certificate</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>Income Certificate</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/BICCO_2023_463546.pdf">Preview</a>
+                      <a href="/My Document/BICCO_2023_463546.pdf" download="Income Certificate">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  Income Certificate modal end -->
+          </div>
+        </div>
+      </div>
+      <!-- Income Certificate end -->
+
+      <!-- Intermediate Admit Card start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseNine">
+            Intermediate Admit Card
+          </button>
+        </div>
+        <div id="collapseNine" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Inter-adm_mdl">Click here to
+              proceed</button>
+            <!-- Intermediate Admit modal start -->
+            <div class="modal fade" id="Inter-adm_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Intermediate Admit Card</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>Intermediate Admit Card</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/Intermediate Admit .pdf">Preview</a>
+                      <a href="/My Document/Intermediate Admit .pdf" download="Intermediate Admit Card">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Intermediate Admit Card end -->
+
+      <!-- Intermediate Marksheet start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseTen">
+            Intermediate Marksheet
+          </button>
+        </div>
+        <div id="collapseTen" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#inter-mark_mdl">Click here to
+              proceed</button>
+            <!-- Intermediate Marksheet modal start -->
+            <div class="modal fade" id="inter-mark_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Intermediate Marksheet</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>Intermediate Marksheet</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/Intermediate Marksheet.pdf">Preview</a>
+                      <a href="/My Document/Intermediate Marksheet.pdf" download="Intermediate Marksheet">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Intermediate Marksheet modal end -->
+          </div>
+        </div>
+      </div>
+      <!-- Intermediate Marksheet end -->
+
+      <!-- Intermediate Provisional and Migration start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseEleven">
+            Intermediate Provisional and Migration
+          </button>
+        </div>
+        <div id="collapseEleven" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#inter-pro_mdl">Click here to
+              proceed</button>
+            <!-- Intermediate Provisional and Migration modal start -->
+            <div class="modal fade" id="inter-pro_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Intermediate Provisional and Migration</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>Intermediate Provisional and Migration</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/Intermediate Provisional+Migration.pdf">Preview</a>
+                      <a href="/My Document/Intermediate Provisional+Migration.pdf"
+                        download="Intermediate Provisional and Migration">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Intermediate Provisional and Migration modal end -->
+          </div>
+        </div>
+      </div>
+      <!-- Intermediate Provisional and Migration end -->
+
+      <!-- Intermediate Registration card start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwelve">
+            Intermediate Registration Card
+          </button>
+        </div>
+        <div id="collapseTwelve" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#int-reg_mdl">Click here to
+              proceed</button>
+            <!-- Intermediate Registration modal start -->
+            <div class="modal fade" id="int-reg_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Intermediate Registration</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>Intermediate Registration</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/Intermediate Registration.pdf">Preview</a>
+                      <a href="/My Document/Intermediate Registration.pdf" download="Intermediate Registration">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Intermediate Registration modal end -->
+          </div>
+        </div>
+      </div>
+      <!-- Intermediate Registration modal end -->
+
+      <!-- Matric Admit card start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseThirteen">
+            Matric Admit Card
+          </button>
+        </div>
+        <div id="collapseThirteen" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mat-adm_mdl">Click here to
+              proceed</button>
+            <!-- Matric Admit Card modal start -->
+            <div class="modal fade" id="mat-adm_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Matric Admit Card</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>Matric Admit Card</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/Matric Admit Card.pdf">Preview</a>
+                      <a href="/My Document/Matric Admit Card.pdf" download="Matric Admit Card">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Matric Admit Card modal end -->
+          </div>
+        </div>
+      </div>
+      <!-- Matric Admit Card end -->
+
+      <!-- Matric Certificate start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseFourteen">
+            Matric Certificate
+          </button>
+        </div>
+        <div id="collapseFourteen" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mat-cer_mdl">Click here to
+              proceed</button>
+            <!-- Matric certificate modal start -->
+            <div class="modal fade" id="mat-cer_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Matric Certificate</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>Matric Certificate</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/Matric Certificate.pdf">Preview</a>
+                      <a href="/My Document/Matric Certificate.pdf" download="Matric Certificate">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Matric certificate modal end -->
+          </div>
+        </div>
+      </div>
+      <!-- Matric certificate end -->
+
+      <!-- Matric Marksheet start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseFifteen">
+            Matric Marksheet
+          </button>
+        </div>
+        <div id="collapseFifteen" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mat-mark_mdl">Click here to
+              proceed</button>
+            <!-- Caste certificate modal start -->
+            <div class="modal fade" id="mat-mark_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Matric Marksheet</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>Matric Marksheet</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/Matric Marksheet.pdf">Preview</a>
+                      <a href="/My Document/Matric Marksheet.pdf" download="Matric Marksheet">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Matric Marksheet modal end  -->
+          </div>
+        </div>
+      </div>
+      <!-- Matric Marksheet end -->
+
+      <!-- Matric Provisional start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseSixteen">
+            Matric Provisional
+          </button>
+        </div>
+        <div id="collapseSixteen" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mat-pro_mdl">Click here to
+              proceed</button>
+            <!-- Caste certificate modal start -->
+            <div class="modal fade" id="mat-pro_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Matric Provisional</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>Matric Provisional</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/Matric Provisional.pdf">Preview</a>
+                      <a href="/My Document/Matric Provisional.pdf" download="Matric Provisional">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Matric Provisional modal end  -->
+          </div>
+        </div>
+      </div>
+      <!-- Matric Provisional end -->
+
+      <!-- Matric Registration start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseSeventeen">
+            Matric Registration
+          </button>
+        </div>
+        <div id="collapseSeventeen" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mat-reg_mdl">Click here to
+              proceed</button>
+            <!-- Caste certificate modal start -->
+            <div class="modal fade" id="mat-reg_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Matric Registration</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>Matric Registration</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/Matric Registration.pdf">Preview</a>
+                      <a href="/My Document/Matric Registration.pdf" download="Matric Registration">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Matric Registration modal end  -->
+          </div>
+        </div>
+      </div>
+      <!-- Matric Registration end -->
+
+      <!--Residence Certificate start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapse_2">
+            Residence Certificate
+          </button>
+        </div>
+        <div id="collapse_2" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#residence-cer_mdl">Click here to
+              proceed</button>
+            <!-- Residence certificate modal start -->
+            <div class="modal fade" id="residence-cer_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Residence Certificate</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>Residence Certificate</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/BRCCO_2021_10946455.pdf">Preview</a>
+                      <a href="/My Document/BRCCO_2021_10946455.pdf" download="Residence Certificate">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- School leaving Certificate modal end  -->
+          </div>
+        </div>
+      </div>
+      <!--School leaving Certificate end -->
+
+
+      <!--School leaving Certificate start -->
+      <div class="card">
+        <div class="card-header">
+          <button class="collapsed btn" data-bs-toggle="collapse" href="#collapseEighteen">
+            School leaving Certificate
+          </button>
+        </div>
+        <div id="collapseEighteen" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#slc_mdl">Click here to
+              proceed</button>
+            <!-- School leaving certificate modal start -->
+            <div class="modal fade" id="slc_mdl">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">School leaving Certificate</h4>
+                    <button type="button" class=" btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-danger">This pdf File is Protected</p>
+                    <p>Instruction for open this pdf:- The password for opening the PDF file is <span
+                        class="text-warning">Combination of the first four letter of your name (As in Marksheet) in
+                        CAPITAL
+                        letters and year of passing in YYYY format</span></p>
+                    <hr>
+                    <p>Example: Your name is SURAJ KUMAR and your Year of passing 2000 Then Your Password is:-<span
+                        class="text-success"> SURA2000</span></p>
+                    <hr>
+                    <h5>School leaving Certificate</h5>
+                    <div class="d-flex justify-content-between">
+                      <a href="/My Document/SLC.pdf">Preview</a>
+                      <a href="/My Document/SLC.pdf" download="School leaving Certificate">
+                        <button type="button" class=" btn btn-primary">Download</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- School leaving Certificate modal end  -->
+          </div>
+        </div>
+      </div>
+      <!--School leaving Certificate end -->
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
+
+<!-- <div align="center">
+  <input type="button" value="Print" class="btn btn-dark" style="width: 100px" onclick="printDiv('printableArea')">
+</div> -->
+</div>
+</body>
+
+</html>
